@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+
+@media screen and (max-width : 1440px) {
+
+    .part1 h1 {
+        font-size: 18rem;
+    }
+
+    .part1 h3 {
+        font-size: 18rem;
+    }
+    section {
+        height: auto;
+        padding: 15rem 0;
+    }
+    .part6 {
+        height: 80vh;
+    }
+    .part6 br {
+        display: block;
+    }
+}
+@media screen and (max-width : 1140px) {
+    section {
+        padding: 5rem 0;
+    }
+    .part1 h1 {
+        font-size: 13rem;
+    }
+
+    .part1 h3 {
+        font-size: 15rem;
+    }
+
+    .part2 {
+        justify-content: flex-start;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .lefttext h1,
+    .lefttext h2,
+    .righttext p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .righttext a {
+        margin: 20px auto 0;
+    }
+
+    .part2 .righttext {
+        margin-top: 150px;
+        order: 1;
+
+    }
+
+    .part2 .lefttext {
+        order: 2;
+    }
+
+    .lefttext h2 br {
+        display: none;
+    }
+
+    .lefttext h2 {
+        white-space: nowrap;
+        font-size: 2rem;
+    }
+
+    .lefttext h1 {
+        font-size: 4rem;
+        margin-top: -15px;
+    }
+
+    .part3 h1 {
+        font-size: 5rem;
+    }
+
+    .parttext h1 {
+        font-size: 8rem;
+        text-align: center;
+        line-height: 5rem;
+        margin: 0 auto;
+    }
+
+    .parttext p {
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 2rem;
+        margin-top: 100px;
+    }
+
+    .parttext p br {
+        /* display: none; */
+    }
+
+    .part4,
+    .part5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parttext {
+        order: 1;
+        margin-bottom: 0;
+    }
+
+    .imac {
+        order: 2;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 200px;
+        text-align: center;
+    }
+
+    .part6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    .part6 h1 {
+        order: 1;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    .imac3 {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        margin-top: 50%;
+    }
+
+    .imac3 .open {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .close {
+        width: 60%;
+        order: 2;
+    }
+
+
+.lefttext2 .circle:hover {
+    transform: translate(-50%, -50%) scale(2);
+}
+
+}
+
+@media screen and (max-width : 1024px) {
+    .part1 h1 {
+        font-size: 10rem;
+    }
+
+    .part1 h3 {
+        font-size: 11rem;
+    }
+
+    .ticker span {
+        margin-bottom: 100px;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+    html {
+        font-size: 13px;
+    }
+    .video-circle {
+        height: 100%;
+        margin: 45px auto;
+    }
+
+}
+
+@media screen and (max-width : 425px) {
+    html {
+        font-size: 10px;
+    } 
+    section {
+        padding: 0;
+    }
+    .part1 , .part2, .part3, .part7{
+        padding: 9rem 0;
+    }
+    .part1 h1, .part1 h3 {
+        font-size: 8rem;
+    }
+    .part1 h2 {
+        font-size: 7rem;
+    }
+    .part2 .righttext {
+        margin-top: 50px;
+    }
+    .hide-bar {
+        display: none;
+    }
+    .parttext p {
+        line-height: 2.5rem;
+        text-align: center;
+    }
+    .lefttext2 .circle:hover {
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+    .part6 {
+        height: 30vh;
+    }
+    .part8-button a {
+        padding: 5px 10px;
+    }
+/* .part8 내부 요소 띄우기 */
+.part8 .ticker-wrapper {
+    margin-top: 20px;
+}
+
+.part8 .part8-button {
+    margin-top: 20px;
+}
+
+.part8 .footer {
+    margin-top: 20px;
+}
+}
+
+@media screen and (max-width : 400px) {}
